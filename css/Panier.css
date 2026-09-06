@@ -1,0 +1,74 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    overflow: auto;
+    max-height: 80vh;
+}
+
+#Cboite {
+    text-align-last: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#panier {
+    left: 30%;
+    top: 50px;
+    position: absolute;
+}
+
+#BoiteB {
+    position: relative;
+    left: 60%;
+}
+
+.case {
+    margin-bottom: 10px;
+}
+
+#totaleB {
+    left: 435px;
+    position: inherit;
+    width: 40%;
+}
+
+#totaleP {
+    left: 140px;
+    position: inherit;
+    width: 40%;
+}
+
+#CommandePanier {
+    position: fixed;
+    right: 10px;
+    bottom: 50%;
+}
+
+#carouselExample {
+    margin: auto;
+    width: 150px;
+}
+
+#montage {
+    left: 40%;
+    position: relative;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: black;
+}
+.btnpanier{
+    font-size: 15px;
+    margin: 2px;
+}

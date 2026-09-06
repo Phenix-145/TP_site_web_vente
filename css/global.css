@@ -1,0 +1,115 @@
+@import "promotionV.css";
+@import "Derniervente.css";
+@import "CategorieV.css";
+@import "BoiteV.css";
+@import "Panier.css";
+@import "Login.css";
+@import "Conseil.css";
+
+#head{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.corp{
+    display: flex;
+}
+
+#left{
+    margin-left: 15px;
+}
+
+#vente{
+    position: absolute;
+    right: 0%;
+}
+
+#Vente{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+}
+
+#menu{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.navigation{
+    background-color: grey;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lien{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom {
+    display: flex;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+#Commande{
+    display: flex;
+    position: fixed;
+    right: 10px;
+    bottom: 75%;
+}
+
+#user{
+    position: absolute;
+    right: 10px;
+}
+
+#resultats{
+    z-index: 0;
+    padding-bottom: 65px;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+#produitCatégorie{
+    z-index: 0;
+    padding-bottom: 65px;
+    margin-top: 25px;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+#menuarticle{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 110%;
+    place-content: space-evenly;
+}
+
+#menuarticle div{
+    padding: 2px;
+    margin: 5px;
+}
+
+#menuarticle div{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 5px;
+}
+
+.soustitre{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 5px;
+}
+
+#left{
+    border: 1px solid black;
+    padding: 2px;
+}

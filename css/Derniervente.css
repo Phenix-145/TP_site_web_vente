@@ -1,0 +1,15 @@
+#Derniereventes {
+    display: block;
+    position: fixed;
+    right: 10px;
+    text-align: end;
+    margin-right: 15px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+
+#dernierVente{
+    margin-top: 20px;
+    text-align: center;
+}
